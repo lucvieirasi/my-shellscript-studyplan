@@ -14,3 +14,19 @@ echo $TOTAL
 SAIDA_CAT=$(cat / | grep lvieira)
 
 echo $SAIDA_CAT
+
+echo "-------------------------------------------------"
+echo "                                                 "
+
+echo "Parâmetro 1: $1"
+echo "Parâmetro 2: $2"
+
+echo "Todos os parâmetros: $*"
+
+echo " Quantos parâmetros? $#"
+
+echo "Saida do ultimo comando: $?"
+
+echo "PID: $$"
+
+echo $0
